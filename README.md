@@ -3,7 +3,8 @@
 ## Introduction
 
 A router has an in-memory collection B of M external domains which cannot be visited by local network user. There is a rule that if a domain is blocked, any its subdomains are blocked too.
-For example, if domain adult.hb is blocked, the following hosts are blocked too: images.adult.hb, ringo.adult.hb, video.ringo.adult.hb
+For example, if domain adult.hb is blocked, the following hosts are blocked too: images.adult.hb, ringo.adult.hb, video.ringo.adult.hb.
+
 Given a non-empty array A of N hosts, and B of M blocked domains, returns a sequence consisting of L integers where each integer represents an index of a host in input A array that can be visited by user.
 
 ## Solution
